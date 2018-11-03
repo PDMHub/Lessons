@@ -11,3 +11,4 @@ optimize_result = optimize.minimize(f1, x0=np.array([30.0]))
 if optimize_result['success']:
     x_min = optimize_result['x']
     print(x_min)
+    

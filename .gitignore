@@ -1,0 +1,12 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Lessons/v15/.suo
+/.vs/slnx.sqlite
+/Course1Week2/TextsSimilarity/.vscode/.ropeproject/objectdb
+/Course1Week2/TextsSimilarity/.vscode/.ropeproject/config.py
+/Course1Week2/TextsSimilarity/.vscode
+/PyLessons/Permutations_Recursion.vsdx
+/.vs/slnx.sqlite-journal
+/.vs/VSWorkspaceState.json

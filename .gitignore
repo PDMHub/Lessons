@@ -2,6 +2,7 @@
 # Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
 ################################################################################
 
+.idea/
 /.vs/Lessons/v15/.suo
 /.vs/slnx.sqlite
 /Course1Week2/TextsSimilarity/.vscode/.ropeproject/objectdb

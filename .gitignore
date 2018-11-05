@@ -2,6 +2,8 @@
 # Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
 ################################################################################
 
+venv/
+.ipynb_checkpoints/
 .idea/
 /.vs/Lessons/v15/.suo
 /.vs/slnx.sqlite

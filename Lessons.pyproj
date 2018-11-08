@@ -25,14 +25,17 @@
     <Compile Include="Course1Week2\TextsSimilarity\.vscode\.ropeproject\config.py" />
     <Compile Include="Course1Week2\TextsSimilarity\TextsSimilarity.py" />
     <Compile Include="Course1Week2\TextsSimilarity\TextsSimilarity_v2.py" />
-    <Compile Include="Course1Week3\FuncMinimizing\FuncMinimizing\FuncMinimizing.py" />
     <Compile Include="Course1Week3\FuncMinimizing\SmoothFuncMinimazing.py" />
     <Compile Include="Lessons.py" />
     <Compile Include="PyLessons\Notepad.py" />
     <Compile Include="PyLessons\Recursion_Log_Hierarchical.py" />
     <Compile Include="PyLessons\Recusrion1.py" />
+    <Compile Include="PyLessons\sympy_trainings.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="AdditionalMaterials\" />
     <Folder Include="Course1Week2\" />
     <Folder Include="Course1Week2\FuncApproximation\" />
     <Folder Include="Course1Week2\TextsSimilarity\" />
@@ -41,17 +44,16 @@
     <Folder Include="Course1Week3\" />
     <Folder Include="Course1Week3\FuncMinimizing\" />
     <Folder Include="Course1Week3\FuncMinimizing\.vs\" />
-    <Folder Include="Course1Week3\FuncMinimizing\.vs\" />
     <Folder Include="Course1Week3\FuncMinimizing\.vs\FuncMinimizing\" />
-    <Folder Include="Course1Week3\FuncMinimizing\.vs\FuncMinimizing\" />
-    <Folder Include="Course1Week3\FuncMinimizing\.vs\FuncMinimizing\v15\" />
     <Folder Include="Course1Week1\" />
     <Folder Include="Course1Week3\FuncMinimizing\.vs\FuncMinimizing\v15\" />
-    <Folder Include="Course1Week3\FuncMinimizing\FuncMinimizing\" />
     <Folder Include="Course1Week4\" />
     <Folder Include="PyLessons\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdditionalMaterials\Math_tasks_solving.pdf" />
+    <Content Include="AdditionalMaterials\practically_cheating_statistics_handbook.pdf" />
+    <Content Include="AdditionalMaterials\progit_v2.1.3.pdf" />
     <Content Include="Course1Week2\FuncApproximation\funcApprox.ipynb" />
     <Content Include="Course1Week2\FuncApproximation\funcApproximation.ipynb" />
     <Content Include="Course1Week2\Sem1_knn.pdf" />
@@ -63,10 +65,7 @@
     <Content Include="Course1Week2\TextsSimilarity\submission-1.txt" />
     <Content Include="Course1Week2\TextsSimilarity\WeightMatrix.txt" />
     <Content Include="Course1Week3\FuncMinimizing\.vs\FuncMinimizing\v15\.suo" />
-    <Content Include="Course1Week3\FuncMinimizing\.vs\FuncMinimizing\v15\.suo" />
     <Content Include="Course1Week3\FuncMinimizing\FuncMinimizing.sln" />
-    <Content Include="Course1Week3\FuncMinimizing\FuncMinimizing.sln" />
-    <Content Include="Course1Week3\FuncMinimizing\FuncMinimizing\FuncMinimizing.pyproj" />
     <Content Include="Course1Week4\sample_distribution_evaluation.ipynb" />
     <Content Include="Course1Week4\stochastic_variables.ipynb" />
     <Content Include="Course1Week4\Вероятность и случайные величины.pdf" />

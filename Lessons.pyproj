@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ae83d896-e19c-43a3-8331-0ae17d7f5f4e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Lessons.py</StartupFile>
+    <StartupFile>Course1Week3\FuncMinimizing\SmoothFuncMinimazing.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Course1Week2\FuncApproximation\FucApprox.py" />
-    <Compile Include="Course1Week2\TextsSimilarity\.vscode\.ropeproject\config.py" />
     <Compile Include="Course1Week2\TextsSimilarity\TextsSimilarity.py" />
     <Compile Include="Course1Week2\TextsSimilarity\TextsSimilarity_v2.py" />
     <Compile Include="Course1Week3\FuncMinimizing\SmoothFuncMinimazing.py" />
@@ -36,17 +35,19 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AdditionalMaterials\" />
+    <Folder Include="Course1Week1\" />
     <Folder Include="Course1Week2\" />
+    <Folder Include="Course1Week2\.ipynb_checkpoints\" />
     <Folder Include="Course1Week2\FuncApproximation\" />
+    <Folder Include="Course1Week2\FuncApproximation\.idea\" />
+    <Folder Include="Course1Week2\FuncApproximation\.ipynb_checkpoints\" />
     <Folder Include="Course1Week2\TextsSimilarity\" />
+    <Folder Include="Course1Week2\TextsSimilarity\.idea\" />
+    <Folder Include="Course1Week2\TextsSimilarity\.idea\dictionaries\" />
     <Folder Include="Course1Week2\TextsSimilarity\.vscode\" />
-    <Folder Include="Course1Week2\TextsSimilarity\.vscode\.ropeproject\" />
     <Folder Include="Course1Week3\" />
     <Folder Include="Course1Week3\FuncMinimizing\" />
-    <Folder Include="Course1Week3\FuncMinimizing\.vs\" />
-    <Folder Include="Course1Week3\FuncMinimizing\.vs\FuncMinimizing\" />
-    <Folder Include="Course1Week1\" />
-    <Folder Include="Course1Week3\FuncMinimizing\.vs\FuncMinimizing\v15\" />
+    <Folder Include="Course1Week3\FuncMinimizing\.idea\" />
     <Folder Include="Course1Week4\" />
     <Folder Include="PyLessons\" />
   </ItemGroup>
@@ -54,18 +55,32 @@
     <Content Include="AdditionalMaterials\Math_tasks_solving.pdf" />
     <Content Include="AdditionalMaterials\practically_cheating_statistics_handbook.pdf" />
     <Content Include="AdditionalMaterials\progit_v2.1.3.pdf" />
+    <Content Include="Course1Week2\.ipynb_checkpoints\tests-checkpoint.ipynb" />
+    <Content Include="Course1Week2\FuncApproximation\.idea\FuncApproximation.iml" />
+    <Content Include="Course1Week2\FuncApproximation\.idea\misc.xml" />
+    <Content Include="Course1Week2\FuncApproximation\.idea\modules.xml" />
+    <Content Include="Course1Week2\FuncApproximation\.idea\workspace.xml" />
+    <Content Include="Course1Week2\FuncApproximation\.ipynb_checkpoints\funcApproximation-checkpoint.ipynb" />
     <Content Include="Course1Week2\FuncApproximation\funcApprox.ipynb" />
     <Content Include="Course1Week2\FuncApproximation\funcApproximation.ipynb" />
     <Content Include="Course1Week2\Sem1_knn.pdf" />
     <Content Include="Course1Week2\tests.ipynb" />
-    <Content Include="Course1Week2\TextsSimilarity\.vscode\.ropeproject\objectdb" />
+    <Content Include="Course1Week2\TextsSimilarity\.idea\dictionaries\Diamond.xml" />
+    <Content Include="Course1Week2\TextsSimilarity\.idea\encodings.xml" />
+    <Content Include="Course1Week2\TextsSimilarity\.idea\misc.xml" />
+    <Content Include="Course1Week2\TextsSimilarity\.idea\modules.xml" />
+    <Content Include="Course1Week2\TextsSimilarity\.idea\TextsSimilarity.iml" />
+    <Content Include="Course1Week2\TextsSimilarity\.idea\vcs.xml" />
+    <Content Include="Course1Week2\TextsSimilarity\.idea\workspace.xml" />
     <Content Include="Course1Week2\TextsSimilarity\.vscode\launch.json" />
-    <Content Include="Course1Week2\TextsSimilarity\.vscode\settings.json" />
     <Content Include="Course1Week2\TextsSimilarity\sentences.txt" />
     <Content Include="Course1Week2\TextsSimilarity\submission-1.txt" />
     <Content Include="Course1Week2\TextsSimilarity\WeightMatrix.txt" />
-    <Content Include="Course1Week3\FuncMinimizing\.vs\FuncMinimizing\v15\.suo" />
-    <Content Include="Course1Week3\FuncMinimizing\FuncMinimizing.sln" />
+    <Content Include="Course1Week3\FuncMinimizing\.idea\FuncMinimizing.iml" />
+    <Content Include="Course1Week3\FuncMinimizing\.idea\misc.xml" />
+    <Content Include="Course1Week3\FuncMinimizing\.idea\modules.xml" />
+    <Content Include="Course1Week3\FuncMinimizing\.idea\vcs.xml" />
+    <Content Include="Course1Week3\FuncMinimizing\.idea\workspace.xml" />
     <Content Include="Course1Week4\sample_distribution_evaluation.ipynb" />
     <Content Include="Course1Week4\stochastic_variables.ipynb" />
     <Content Include="Course1Week4\Вероятность и случайные величины.pdf" />

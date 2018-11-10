@@ -39,7 +39,7 @@ if optimize_result['success']:
 
 # записываем в файл значение функции для первого приближения
 with open('C:\\Lessons\\Course1Week3\\FuncMinimizing\\NonSmooth_Results.txt', 'w') as file_obj:
-    file_obj.writelines(str(np.round(optimize_result['fun'], 2)) + ' ')
+    file_obj.writelines(str(np.round(optimize_result['fun'][0], 2)) + ' ')
 
 bounds = [(1, 30)]
 

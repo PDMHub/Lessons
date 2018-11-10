@@ -1,34 +1,59 @@
 from scipy import optimize
-<<<<<<< HEAD
 import matplotlib.pyplot as plt
-=======
-import matplotlib.pyplot as plt 
->>>>>>> 02dbceae7bf47eb22e31c27102c2f743c6625798
 import numpy as np
-import math
+import sys, os
 
-# Целевая функция
+
+# Функция отрисовки результатов оптимизации
+def draw_optimization_result(x0, x, y, title, result):
+    plt.title(title)
+    plt.plot(x, y)
+    plt.plot(
+        result['x'],
+        result['fun'],
+        'o',
+        label='Initial guess = {0}'.format(x0))
+    plt.legend()
+    plt.show()
+
+
+# Целевая функция на промежутке [1, 30]
+x = np.linspace(1, 30, 30)
 def f(x):
-    return math.sin(x / 5.0) * math.exp(x / 10.0) + 5.0 * math.exp(-x / 2.0)
+    return np.sin(x / 5.0) * np.exp(x / 10.0) + 5.0 * np.exp(-x / 2.0)
 
-y=[]
-for x in range(0, 30, 2):
-    y.append(f1(x))
-
-y = []
-for x in range(1, 30, 2):
-    y.append(f(x))
-print(y)
-
-optimize_result = optimize.minimize(f, x0=np.array([3.0]))
+x_0 = 4.0
+optimize_result = optimize.minimize(f, x0 = x_0, method = 'Nelder-Mead')
 if optimize_result['success']:
-    x_min = optimize_result['x']
-    print(x_min)
+    draw_optimization_result(x_0, x, f(x), "Nelder-Mead optimization method",
+                             optimize_result)
+    print("optimize_result = {0}".format(optimize_result))
 
-<<<<<<< HEAD
-plt.plot(range(0, 30, 2), y)
-plt.show()
-=======
-plt.plot(range(1, 30, 2), y)
-plt.show()
->>>>>>> 02dbceae7bf47eb22e31c27102c2f743c6625798
+x_0 = 4.0
+optimize_result = optimize.minimize(f, x0 = x_0, method = 'BFGS')
+if optimize_result['success']:
+    draw_optimization_result(x_0, x, f(x), "BFGS optimization method",
+                             optimize_result)
+    print("optimize_result = {0}".format(optimize_result))
+
+x_0 = 2.0
+optimize_result = optimize.minimize(f, x0 = x_0, method = 'Nelder-Mead')
+if optimize_result['success']:
+    draw_optimization_result(x_0, x, f(x), "Nelder-Mead optimization method",
+                             optimize_result)
+    print("optimize_result = {0}".format(optimize_result))
+
+# записываем в файл значение функции для первого приближения
+with open('C:\\Lessons\\Course1Week3\\FuncMinimizing\\Optimization_Results.txt', 'w') as file_obj:
+    file_obj.writelines(str(np.round(optimize_result['fun'], 2)) + ' ')
+
+x_0 = 30.0
+optimize_result = optimize.minimize(f, x0 = x_0, method = 'Nelder-Mead')
+if optimize_result['success']:
+    draw_optimization_result(x_0, x, f(x), "Nelder-Mead optimization method",
+                             optimize_result)
+    print("optimize_result = {0}".format(optimize_result))
+
+# записываем в файл значение функции для второго приближения
+with open('C:\\Lessons\\Course1Week3\\FuncMinimizing\\Optimization_Results.txt', 'a') as file_obj:
+    file_obj.writelines(str(np.round(optimize_result['fun'], 2)) + ' ')

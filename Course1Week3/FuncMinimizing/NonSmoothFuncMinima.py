@@ -29,6 +29,8 @@ def f(x):
     #return np.array(x, dtype = 'int32')
 
 
+# Поскольку градиента для негладкой функции не существует
+# метод BFGS в данном случае непригоден для поиска экстремума
 x_0 = 22.0
 optimize_result = minimize(f, x0 = x_0, method = 'BFGS')
 if optimize_result['success']:

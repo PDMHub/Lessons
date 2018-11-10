@@ -29,7 +29,7 @@ def f(x):
     #return np.array(x, dtype = 'int32')
 
 
-x_0 = 30.0
+x_0 = 22.0
 optimize_result = minimize(f, x0 = x_0, method = 'BFGS')
 if optimize_result['success']:
     draw_optimization_result(x_0, x, f(x), "BFGS optimization method",

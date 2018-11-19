@@ -1,4 +1,16 @@
 #%%
+# Символьные операции с матрицами
+from sympy import *
+init_printing()
+A_symbol = MatrixSymbol('a', 3, 3)
+B_symnol = MatrixSymbol('b', 3, 1)
+A = Matrix(A_symbol)
+B = Matrix(B_symnol)
+mul = A * B
+A, B, mul
+
+
+#%%
 from sympy import *
 # import matplotlib.pyplot as plt
 # import matplotlib as mpl
@@ -25,10 +37,3 @@ x1, x2 , y1, y2, z1, z2 = symbols('x1 x2 y1 y2 z1 z2')
 v1 = x1*N.x + y1*N.y + z1*N.z
 v2 = x2*N.x + y2*N.y + z2*N.z
 dot(v1, v2)
-
-
-#%%
-from sympy import MatMul, MatrixSymbol
-A = MatrixSymbol('A', 3, 1)
-B = MatrixSymbol('B', 1, 3)
-MatMul(A, B)

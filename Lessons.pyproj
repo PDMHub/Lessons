@@ -26,10 +26,14 @@
     <Compile Include="Course1Week2\TextsSimilarity\TextsSimilarity_v2.py" />
     <Compile Include="Course1Week3\FuncMinimizing\SmoothFuncMinimazing.py" />
     <Compile Include="Lessons.py" />
+    <Compile Include="PyLessons\Latex_testing.py" />
     <Compile Include="PyLessons\Notepad.py" />
     <Compile Include="PyLessons\Recursion_Log_Hierarchical.py" />
     <Compile Include="PyLessons\Recusrion1.py" />
     <Compile Include="PyLessons\sympy_trainings.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PyLessons\Ограниченные функции.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

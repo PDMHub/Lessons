@@ -6,6 +6,7 @@
 venv/
 .ipynb_checkpoints/
 .idea/
+.vscode/
 /.vs/Lessons/v15/.suo
 /.vs/slnx.sqlite
 /Course1Week2/TextsSimilarity/.vscode/.ropeproject/objectdb

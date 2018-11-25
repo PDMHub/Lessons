@@ -18,3 +18,4 @@ venv/
 /.vs/VSWorkspaceState.json
 
 
+.vscode/settings.json

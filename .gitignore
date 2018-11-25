@@ -15,3 +15,4 @@ venv/
 /PyLessons/Permutations_Recursion.vsdx
 /.vs/slnx.sqlite-journal
 /.vs/VSWorkspaceState.json
+.vscode/settings.json

@@ -30,6 +30,7 @@ deriv_x, deriv_y
 #%%
 from sympy import *
 from sympy.physics.vector import ReferenceFrame, dot
+init_printing(use_latex = True)
 # Система отсчета
 N = ReferenceFrame('N')
 from sympy import vector

@@ -7,7 +7,7 @@ B_symnol = MatrixSymbol('b', 3, 1)
 A = Matrix(A_symbol)
 B = Matrix(B_symnol)
 mul = A * B
-A, B, mul
+A, B, mul 
 
 
 #%%

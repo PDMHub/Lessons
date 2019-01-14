@@ -1,4 +1,8 @@
 {
-    "python.pythonPath": "venv\\Scripts\\python.exe",
+<<<<<<< HEAD
+    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\python.exe"
+=======
+    "python.pythonPath": "C:\\Users\\user\\Documents\\GitHub\\Lessons\\venv\\python.exe",
     "python.formatting.provider": "yapf"
+>>>>>>> a15f40226dbdee9d27e01f501e9ce7f4f394bdd9
 }

@@ -17,10 +17,5 @@ f1 = 1/x
 # x, принадлежащих R
 f2 = sp.Abs(x)
 
-p1 = plot(f1)
-p2 = plot(f2)
-p3 = plot(f3)
-
-
-
-
+p1 = plot(f, f1, f2, (-10,10) )
+p1.show()
